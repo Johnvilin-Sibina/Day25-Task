@@ -1,0 +1,55 @@
+.heading {
+  color: blueviolet;
+  font-style: oblique;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 44px
+}
+
+input {
+  width: 90%;
+  border: 2px lightgreen solid;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: rgb(9, 200, 9);
+  border-radius: 10px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.input-field {
+  margin-top: 5%;
+}
+.todos{
+  margin-top:5%;
+}
+.card{
+  margin-bottom: 5%;
+  height: 250px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.heading5{
+  display: inline-block;
+}
+.filter{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+form{
+  display: inline-block;
+}
+.btn{
+  width: 30%;
+  margin-right: 3%;
+}
+.submit{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20%;
+}
