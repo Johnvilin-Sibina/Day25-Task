@@ -9,7 +9,7 @@ function Filter({ setStatusFilter }) {
     <div className="filter">
       <h5 className="heading5">My Todos</h5>
       <form>
-        <label htmlFor="status">Status:</label>
+        <label htmlFor="status"><h5>Status Filter:</h5></label>
         <select id="status" onChange={handleChange} style={{ backgroundColor}}>
           <option value="all">All</option>
           <option value="completed">Completed</option>
